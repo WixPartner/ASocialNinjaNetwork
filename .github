@@ -1,0 +1,91 @@
+.
+├── apps
+│   ├── web
+│   │   ├── src
+│   │   │   ├── pages
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── dashboard.tsx
+│   │   │   │   ├── settings.tsx
+│   │   │   │   └── agent.tsx
+│   │   │   ├── components
+│   │   │   │   ├── Header.tsx
+│   │   │   │   ├── YjsProvider.tsx
+│   │   │   │   └── PromptBox.tsx
+│   │   │   └── dev.ts
+│   │   └── Dockerfile
+│   ├── api
+│   │   ├── src
+│   │   │   ├── index.ts
+│   │   │   ├── routes
+│   │   │   │   ├── auth.ts
+│   │   │   │   ├── boards.ts
+│   │   │   │   └── ai.ts
+│   │   │   └── dev.ts
+│   │   └── Dockerfile
+│   ├── realtime
+│   │   ├── src
+│   │   │   ├── index.ts
+│   │   │   ├── ws-server.ts
+│   │   │   └── yjs-adapter.ts
+│   │   └── Dockerfile
+│   └── worker
+│       ├── src
+│       │   ├── index.ts
+│       │   ├── jobs
+│       │   │   ├── aiJob.ts
+│       │   │   └── compactionJob.ts
+│       │   └── dev.ts
+│       └── Dockerfile
+├── packages
+│   ├── lib-db
+│   │   ├── package.json
+│   │   └── src
+│   │       ├── index.ts
+│   │       └── __tests__
+│   │           └── index.test.ts
+│   ├── lib-crdt
+│   │   ├── package.json
+│   │   └── src
+│   │       ├── yjsPersistence.ts
+│   │       └── __tests__
+│   ├── lib-ai
+│   │   ├── package.json
+│   │   └── src
+│   │       ├── geminiClient.ts
+│   │       └── __tests__
+│   │           └── geminiClient.test.ts
+│   ├── lib-auth
+│   │   ├── package.json
+│   │   └── src
+│   │       └── auth.ts
+│   ├── lib-telemetry
+│   │   ├── package.json
+│   │   └── src
+│   │       └── telemetry.ts
+│   └── types
+│       ├── package.json
+│       └── src
+│           └── index.ts
+├── infrastructure
+│   ├── k8s
+│   │   └── dev.yaml
+│   ├── terraform
+│   │   └── README.md
+│   └── deploy
+│       └── Dockerfile
+├── scripts
+│   ├── dev-docker.sh
+│   └── seed-data.ts
+├── docs
+│   └── ARCHITECTURE.md
+├── .github
+│   └── workflows
+│       └── ci.yml
+├── tests
+│   └── integration
+│       └── realtime.spec.ts
+├── package.json
+├── tsconfig.json
+├── jest.config.js
+├── Dockerfile
+└── README.md
