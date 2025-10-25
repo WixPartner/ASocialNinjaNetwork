@@ -1,0 +1,9 @@
+{
+  "_id": "6123...",
+  "boardId": "board_abc",
+  "version": 42,
+  "yjsSnapshot": { "$binary": { "base64": "AAEA...", "subType": "00" } },
+  "sizeBytes": 12345,
+  "createdAt": "2025-10-25T19:00:00Z",
+  "createdBy": "user_123"
+}
