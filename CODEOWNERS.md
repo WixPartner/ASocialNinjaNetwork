@@ -1,5 +1,13 @@
 ## Quick dev notes
-
+The Following Organizations Contributed to this Codebase and The owner is "@Ninja-man:AdminSystemsManager"
+@ASocialNinjaNetwork
+@ASocialNinjaDevelopersNetwork
+@ASocialNinjaUniversity
+@PodcastCrewProductions
+@TheSocialNinjaExperiment:APodcastCrewProductions
+@AISocialNinjaYoutubeChannel:https://www.youtube.com/@Ninja-man
+@LegendaryFilms
+AiSocialNinjaLabStudio
 Environment variables required for dev:
 - MONGODB_URI (for persistence)
 - DB_NAME (optional; default asn_dev)
